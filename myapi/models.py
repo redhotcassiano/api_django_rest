@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 class Music(models.Model):
 
@@ -14,6 +12,7 @@ class Music(models.Model):
 
     def __str__(self):
         return self.title
+
 
 class Categories(models.Model):
 

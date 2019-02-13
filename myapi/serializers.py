@@ -9,6 +9,7 @@ class MusicSerializer(serializers.ModelSerializer):
         model = Music
         fields = '__all__'
 
+
 class CategoriesSerializer(serializers.ModelSerializer):
 
     class Meta:
