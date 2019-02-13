@@ -23,7 +23,7 @@ class Categories(models.Model):
     name = models.CharField(max_length=200)
     description = models.TextField()
     create_at = models.DateTimeField(auto_now_add=True)
-    deleted_at = models.DateTimeField(auto_now=True, null=True)
+    deleted_at = models.DateTimeField(null=True)
 
     def __str__(self):
         return self.name
